@@ -21,8 +21,12 @@ Coded by www.creative-tim.com
 
 export default {
   background: {
-    default: "#f0f2f5",
+    default: "#000000",
   },
+
+  // background: {
+  //   default: "linear-gradient(90deg,rgba(38, 10, 30, 1) 0%, rgba(36, 19, 56, 1) 50%, rgba(26, 26, 61, 1) 100%)",
+  // },
 
   text: {
     main: "#7b809a",

@@ -74,7 +74,7 @@ function Presentation() {
       >
         <Container>
           <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
-            <MKTypography
+            {/* <MKTypography
               variant="h1"
               color="white"
               mt={-6}
@@ -85,36 +85,30 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
-              <MKBadge
-                badgeContent="pro"
-                size="lg"
-                variant="contained"
-                color="white"
-                container
-                sx={{ mt: -4 }}
-              />
-            </MKTypography>
-            <MKTypography variant="body1" color="white" textAlign="center" px={6} mt={1}>
-              Start the Development with a ReactJS & MUI Design System inspired by Material Design.
-            </MKTypography>
+              POLE KISSES{" "}
+             
+            </MKTypography> */}
+            {/* <MKTypography variant="body1" color="white" textAlign="center" px={6} mt={1}>
+            {" "} A Short Film
+            </MKTypography> */}
           </Grid>
         </Container>
       </MKBox>
       <Card
         sx={{
           p: 2,
-          mx: { xs: 2, lg: 3 },
+          mx: { xs: 5, lg: 3 },
           mt: -8,
+          ml: 100,
           mb: 4,
           backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
           backdropFilter: "saturate(200%) blur(30px)",
-          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          // boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Counters />
-        <Information />
-        <DesignBlocks />
+        {/* <Counters /> */}
+        {/* <Information />
+        <DesignBlocks /> */}
         <AuthPages />
         <Pages />
         <Container sx={{ mt: 6 }}>

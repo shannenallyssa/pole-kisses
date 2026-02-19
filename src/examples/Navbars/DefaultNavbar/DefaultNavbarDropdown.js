@@ -64,14 +64,21 @@ function DefaultNavbarDropdown({
         {...(route && routeComponent)}
         {...(href && linkComponent)}
       >
-        <MKTypography
+        {/* <MKTypography
           variant="body2"
           lineHeight={1}
           color="inherit"
           sx={{ alignSelf: "center", "& *": { verticalAlign: "middle" } }}
         >
           {icon}
-        </MKTypography>
+        </MKTypography> */}
+          <MKTypography
+          variant="button"
+          fontWeight="regular"
+          textTransform="capitalize"
+          color={light ? "white" : "dark"}
+          sx={{ fontWeight: "100%", ml: 1, mr: 0.25 }}
+        ></MKTypography>
         <MKTypography
           variant="button"
           fontWeight="regular"

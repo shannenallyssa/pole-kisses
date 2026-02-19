@@ -149,7 +149,7 @@ function DefaultNavbar({
                     >
                       {col.name}
                     </MKTypography>
-                    {col.collapse.map((item) => (
+                    {/* {col.collapse.map((item) => (
                       <MKTypography
                         key={item.name}
                         component={item.route ? Link : MuiLink}
@@ -178,7 +178,7 @@ function DefaultNavbar({
                       >
                         {item.name}
                       </MKTypography>
-                    ))}
+                    ))} */}
                   </Fragment>
                 ))}
                 {key !== 0 && (
